@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f8ff;
+  color: #333;
+}
+
+.banna {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.mango {
+  font-size: 64px;
+  color: #4f46e5;
+  margin: 0;
+}
+
+.apple {
+  color: #888;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.navigation a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #888;
+  font-weight: 500;
+}
+
+.banner {
+  background: url('banner.png') no-repeat center/cover;
+  height: 100vh;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.banner-content {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.banner-content h1 {
+  font-size: 2.5em;
+}
+
+.button {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  background: #f6f8ff;
+}
+
+.action-left {
+  max-width: 400px;
+}
+
+.action-left h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.action-left p {
+  color: #555;
+}
+
+.action-right img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.users {
+  background: #e9ebfb;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.users h2 {
+  margin-bottom: 20px;
+}
+
+.user-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.stats div h3 {
+  color: #4f46e5;
+  font-size: 2em;
+}
+
+.stats div p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.contact-section {
+  background: #f0f3ff;
+  padding: 60px 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-text h2 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.testimonials {
+  padding: 60px 20px;
+  background: #f6f8ff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #444;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
